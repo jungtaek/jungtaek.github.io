@@ -64,6 +64,17 @@ a, a:visited
     font-size: 1.9em;
 }
 
+.paragraph-110-bold
+{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.paragraph-110
+{
+    font-size: 1.75em;
+}
+
 .paragraph-100-bold
 {
     font-size: 1.6em;
