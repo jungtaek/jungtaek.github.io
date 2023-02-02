@@ -8,7 +8,7 @@
                 <li><a href="notes/error_bars.pdf" target="_blank">Error Bars and Log-Scale Error Bars (January 4, 2023)</a></li>
                 <li><a href="notes/derivatives_kernels.pdf" target="_blank">Kernels and Derivatives of Kernels (June 25, 2021)</a></li>
                 <li><a href="notes/benchmarks_bo.pdf" target="_blank">Benchmark Functions for Bayesian Optimization (July 30, 2020; Revised on January 12, 2022)</a></li>
-                <li><a href="slides/slides_talk_bayesian_optimization_20230202.pdf" target="_blank">Bayesian Optimization and Its Applications (February2, 2023)</a></li>
+                <li><a href="slides/slides_talk_bayesian_optimization_20230202.pdf" target="_blank">Bayesian Optimization and Its Applications (February 2, 2023)</a></li>
             </ol>
 
             <p class="paragraph-120-bold">Open Source Projects</p>
