@@ -1,9 +1,9 @@
-            <p class="paragraph-120-bold">Curriculum Vitae</p>
+            <p class="paragraph-120-bold">CURRICULUM VITAE</p>
             <ol class="general-list">
-                <li><a href="cv/cv_jungtaek_kim.pdf" target="_blank">Curriculum Vitae (December, 2022)</a></li>
+                <li><a href="cv/cv_jungtaek_kim.pdf" target="_blank">Curriculum Vitae (February, 2023)</a></li>
             </ol>
 
-            <p class="paragraph-120-bold">Notes / Materials</p>
+            <p class="paragraph-120-bold">NOTES / MATERIALS</p>
             <ol class="general-list">
                 <li><a href="notes/error_bars.pdf" target="_blank">Error Bars and Log-Scale Error Bars (January 4, 2023)</a></li>
                 <li><a href="notes/derivatives_kernels.pdf" target="_blank">Kernels and Derivatives of Kernels (June 25, 2021)</a></li>
@@ -11,23 +11,24 @@
                 <li><a href="slides/slides_talk_bayesian_optimization_20230202.pdf" target="_blank">Bayesian Optimization and Its Applications (February 2, 2023)</a></li>
             </ol>
 
-            <p class="paragraph-120-bold">Open Source Projects</p>
+            <p class="paragraph-120-bold">OPEN SOURCE PROJECTS</p>
             <ol class="general-list">
                 <li><a href="https://bayeso.org" target="_blank">BayesO</a> 
                 (GitHub: <a href="https://github.com/jungtaekkim/bayeso" target="_blank">bayeso</a>, 
-                <a href="https://github.com/jungtaekkim/bayeso-benchmarks" target="_blank">bayeso-benchmarks</a>)</li>
+                <a href="https://github.com/jungtaekkim/bayeso-benchmarks" target="_blank">bayeso-benchmarks</a>,
+                <a href="https://github.com/jungtaekkim/batch-bayeso" target="_blank">batch-bayeso</a>)</li>
                 <li><a href="https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation" target="_blank">Combinatorial-3D-Shape-Generation</a></li>
                 <li><a href="https://github.com/POSTECH-CVLab/Geometric-Primitives" target="_blank">Geometric-Primitives</a></li>
             </ol>
 
-            <p class="paragraph-120-bold">Articles</p>
+            <p class="paragraph-120-bold">ARTICLES</p>
             <ol class="general-list">
                 <li><a href="https://blog.sigopt.com/posts/automl-at-icml-2018" target="_blank">AutoML at ICML 2018 (SigOpt Blog, July 13, 2018)</a></li>
                 <li><a href="https://blog.sigopt.com/posts/clustering-applied-to-acquisition-functions" target="_blank">Clustering Applied to Acquisition Functions (SigOpt Blog, April 17, 2018)</a></li>
                 <li><a href="https://blog.sigopt.com/posts/circulant-binary-embeddings" target="_blank">Circulant Binary Embeddings (SigOpt Blog, February 6, 2018)</a></li>
             </ol>
 
-            <p class="paragraph-120-bold">Pictures</p>
+            <p class="paragraph-120-bold">PICTURES</p>
             <ul class="general-list">
                 <li><a href="img/me/2022_08_30_cleveland_mds_rely_2022_fall_meeting_with_mike.jpg" target="_blank">Photo with Dr. Michael McCourt at the MDS-Rely 2022 Fall Meeting (Cleveland, USA / August 30, 2022)</a></li>
                 <li><a href="img/me/2022_05_13_pohang_postech_commencement_ceremony_2021_with_professor_cho.jpg" target="_blank">Photo with Dr. Ilchae Jung and Prof. Minsu Cho at the 2021 POSTECH Commencement Ceremony (Pohang / May 13, 2022)</a></li>
@@ -45,7 +46,7 @@
                 <li><a href="img/me/2016_06_24_new_york_awrding_automl_2016.png" target="_blank">Awarding on AutoML 2016 Workshop (New York, New York, USA / June 24, 2016)</a></li>
             </ul>
 
-            <p class="paragraph-120-bold">Assets</p>
+            <p class="paragraph-120-bold">ASSETS</p>
             <ul class="general-list">
                 <li><a href="assets/postech_logo_glossy.jpg" target="_blank">POSTECH logo (jpg)</a></li>
                 <li><a href="assets/postech_logo.pdf" target="_blank">POSTECH wide logo (pdf)</a></li>
@@ -56,12 +57,12 @@
                 <li><a href="assets/university_of_pittsburgh_logo_royal_gold.pdf" target="_blank">University of Pittsburgh logo (pdf, royal and gold)</a></li>
                 <li><a href="assets/university_of_pittsburgh_logo_black.pdf" target="_blank">University of Pittsburgh logo (pdf, black)</a></li>
                 <li><a href="assets/slides_beamer_v4.zip" target="_blank">Slides template (LaTeX, zip)</a></li>
-                <li><a href="assets/slides_beamer_wide_v3.zip" target="_blank">Slides template (LaTeX, wide, zip)</a></li>
+                <li><a href="assets/slides_beamer_wide_v4.zip" target="_blank">Slides template (LaTeX, wide, zip)</a></li>
                 <li><a href="assets/slides_mlg_postech_with_logo.pptx" target="_blank">Slides template (PowerPoint, wide, pptx)</a></li>
                 <li><a href="assets/poster_latex.zip" target="_blank">Poster template (LaTeX, zip)</a></li>
             </ul>
 
-            <p class="paragraph-120-bold">Address</p>
+            <p class="paragraph-120-bold">ADDRESS</p>
 
             <p class="paragraph-100">
                 University of Pittsburgh,
@@ -71,7 +72,7 @@
                 Pennsylvania 15261, United States
             </p>
 
-            <p class="paragraph-120-bold">Previous Address</p>
+            <p class="paragraph-120-bold">PREVIOUS ADDRESS</p>
 
             <p class="paragraph-100">
                 Department of Computer Science and Engineering,
@@ -83,7 +84,7 @@
                 Gyeongsangbuk-do, Republic of Korea
             </p>
 
-            <p class="paragraph-120-bold">Homepage</p>
+            <p class="paragraph-120-bold">HOMEPAGES</p>
 
             <ul class="general-list">
                 <li><a href="https://jungtaek.github.io" target="_blank">https://jungtaek.github.io</a></li>
