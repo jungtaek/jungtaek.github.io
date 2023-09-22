@@ -55,7 +55,6 @@ if __name__ == '__main__':
     update_html('index.temp')
     update_html('news.temp')
     update_html('profile.temp')
-    update_html('publications_categorized.temp')
     update_html('committees.temp')
     update_html('talks.temp')
     update_html('archives.temp')
