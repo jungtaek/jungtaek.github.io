@@ -61,6 +61,10 @@
                 <li><a href="assets/university_of_wisconsin_madison_logo_full_color.pdf" target="_blank">University of Wisconsin&ndash;Madison logo (pdf, full color)</a></li>
                 <li><a href="assets/university_of_wisconsin_madison_logo_black.png" target="_blank">University of Wisconsin&ndash;Madison logo (png, black)</a></li>
                 <li><a href="assets/university_of_wisconsin_madison_logo_black.pdf" target="_blank">University of Wisconsin&ndash;Madison logo (pdf, black)</a></li>
+                <li><a href="assets/university_of_arkansas_logo.png" target="_blank">University of Arkansas logo (png)</a></li>
+                <li><a href="assets/university_of_arkansas_logo.pdf" target="_blank">University of Arkansas logo (pdf)</a></li>
+                <li><a href="assets/university_of_arkansas_logo_horizontal.png" target="_blank">University of Arkansas logo (png, horizontal)</a></li>
+                <li><a href="assets/university_of_arkansas_logo_horizontal.pdf" target="_blank">University of Arkansas logo (pdf, horizontal)</a></li>
                 <li><a href="assets/slides_beamer_wide_v6.zip" target="_blank">Slides template (LaTeX, zip)</a></li>
                 <li><a href="assets/poster_beamer_v1.zip" target="_blank">Poster template (LaTeX, zip)</a></li>
             </ul>
@@ -68,19 +72,33 @@
             <p class="paragraph-120-bold">ADDRESS</p>
 
             <p class="paragraph-100">
+                University of Arkansas,
+                <br>
+                Bell Engineering Center,
+                <br>
+                800 W Dickson St, Fayetteville,
+                <br>
+                Arkansas 72701, United States
+            </p>
+
+            <p class="paragraph-120-bold">PREVIOUS ADDRESSES</p>
+
+            <p class="paragraph-100">
                 University of Wisconsin&ndash;Madison,
                 <br>
-                M1095 Engineering Centers Building, 1550 Engineering Dr, Madison,
+                M1095 Engineering Centers Building,
+                <br>
+                1550 Engineering Dr, Madison,
                 <br>
                 Wisconsin 53706, United States
             </p>
 
-            <p class="paragraph-120-bold">PREVIOUS ADDRESS</p>
-
             <p class="paragraph-100">
                 University of Pittsburgh,
                 <br>
-                1135 Benedum Hall, 3700 O'Hara St, Pittsburgh,
+                1135 Benedum Hall,
+                <br>
+                3700 O'Hara St, Pittsburgh,
                 <br>
                 Pennsylvania 15261, United States
             </p>
