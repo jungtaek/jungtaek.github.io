@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSCE 46103/56103 Artificial Intelligence - Fall 2026</title>
+    <style>
+      body {
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        color: #222;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+      }
+
+      h1 {
+        margin-top: 0;
+        line-height: 1.2;
+      }
+
+      .university-logo {
+        display: block;
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        margin-bottom: 2rem;
+      }
+
+      dl {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 0.5rem 1.5rem;
+      }
+
+      dt {
+        font-weight: 600;
+      }
+
+      dd {
+        margin: 0;
+      }
+
+      a {
+        color: #005ea8;
+      }
+
+      .assignment-due,
+      .exam {
+        color: #005ea8;
+      }
+
+      h2 {
+        margin-top: 2.5rem;
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        min-width: 40rem;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+      }
+
+      th,
+      td {
+        padding: 0.5rem 0.625rem;
+        border: 1px solid #bbb;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #f5f5f5;
+      }
+
+      th:first-child,
+      td:first-child {
+        white-space: nowrap;
+      }
+
+      tbody td:nth-child(2) {
+        white-space: nowrap;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 30rem;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 14rem;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 10rem;
+      }
+
+      .no-class td {
+        background: #fafafa;
+        color: #555;
+      }
+
+      @media (max-width: 36rem) {
+        dl {
+          display: block;
+        }
+
+        dd {
+          margin-bottom: 0.75rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img class="university-logo" src="assets/university_of_arkansas_logo_horizontal.png" alt="University of Arkansas" width="2752" height="660">
+      <h1>CSCE 46103/56103 Artificial Intelligence - Fall 2026</h1>
+
+      <h2>Course Information</h2>
+      <dl>
+        <dt>Instructor</dt>
+        <dd>Jungtaek Kim (<a href="mailto:jukim@uark.edu">jukim@uark.edu</a>)</dd>
+
+        <dt>Teaching Assistant</dt>
+        <dd>Mariha Siddika Ahmad (<a href="mailto:ma135@uark.edu">ma135@uark.edu</a>)</dd>
+
+        <dt>Classroom</dt>
+        <dd>BELL 2286</dd>
+
+        <dt>Class Time</dt>
+        <dd>Tuesday/Thursday, 3:30 PM&ndash;4:45 PM</dd>
+
+        <dt>Office Hours</dt>
+        <dd>Instructor: Tuesday, 5:00 PM&ndash;6:00 PM<br>Teaching Assistant: Thursday, 5:00 PM&ndash;6:00 PM</dd>
+
+        <dt>Textbook</dt>
+        <dd>Russell, S. J., &amp; Norvig, P. (2020). <cite><a href="https://aima.cs.berkeley.edu">Artificial Intelligence: A Modern Approach</a></cite> (4th ed.). Pearson.</dd>
+      </dl>
+
+      <h2 id="course-schedule">Course Schedule</h2>
+      <p>AIMA refers to <cite>Artificial Intelligence: A Modern Approach</cite> (4th ed.).</p>
+      <div class="table-wrapper">
+        <table aria-labelledby="course-schedule">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Topics</th>
+              <th scope="col">Materials</th>
+              <th scope="col">References</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><time datetime="2026-08-18">Tue, Aug. 18</time></td>
+              <td>Course Orientation<br>AI Today<br>Responsible and Verifiable Use of AI Coding Tools</td>
+              <td></td>
+              <td>AIMA Chs. 1&ndash;2</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-08-20">Thu, Aug. 20</time></td>
+              <td>Intelligent Agents and Task Environments<br>Problem Formulation and Representations</td>
+              <td></td>
+              <td>AIMA Chs. 2&ndash;3</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-08-25">Tue, Aug. 25</time></td>
+              <td>State-Space Search: BFS, DFS, and Uniform-Cost Search</td>
+              <td></td>
+              <td>AIMA &sect;&sect;3.3&ndash;3.4</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-08-27">Thu, Aug. 27</time></td>
+              <td>Greedy Search, A*, and Heuristics<br><em>Assignment 1 Released</em></td>
+              <td></td>
+              <td>AIMA &sect;&sect;3.5&ndash;3.6</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-01">Tue, Sep. 1</time></td>
+              <td>Heuristic Design: Admissibility and Consistency<br>Local Search</td>
+              <td></td>
+              <td>AIMA Chs. 3&ndash;4</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-03">Thu, Sep. 3</time></td>
+              <td>Constraint Satisfaction: Backtracking, Propagation, and Heuristics</td>
+              <td></td>
+              <td>AIMA Ch. 6</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-08">Tue, Sep. 8</time></td>
+              <td>Adversarial Search: Minimax, Alpha&ndash;Beta Pruning, and MCTS</td>
+              <td></td>
+              <td>AIMA Ch. 5</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-10">Thu, Sep. 10</time></td>
+              <td>Probability, Independence, and Bayes&rsquo; Rule<br><em class="assignment-due">Assignment 1 Due</em><br><em>Assignment 2 Released</em></td>
+              <td></td>
+              <td>AIMA Ch. 12</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-15">Tue, Sep. 15</time></td>
+              <td>Bayesian Networks and Conditional Independence</td>
+              <td></td>
+              <td>AIMA &sect;&sect;13.1&ndash;13.2</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-17">Thu, Sep. 17</time></td>
+              <td><em>Assignment 1 Review</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-22">Tue, Sep. 22</time></td>
+              <td>Exact Inference in Bayesian Networks</td>
+              <td></td>
+              <td>AIMA &sect;13.3</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-24">Thu, Sep. 24</time></td>
+              <td>Approximate Inference and Sampling<br><em class="assignment-due">Assignment 2 Due</em><br><em>Assignment 3 Released</em></td>
+              <td></td>
+              <td>AIMA &sect;13.4</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-09-29">Tue, Sep. 29</time></td>
+              <td>Expected Utility and Value of Information</td>
+              <td></td>
+              <td>AIMA Ch. 16</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-01">Thu, Oct. 1</time></td>
+              <td><em>Assignment 2 Review</em><br>MDP Formulation</td>
+              <td></td>
+              <td>AIMA &sect;17.1</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-06">Tue, Oct. 6</time></td>
+              <td>Bellman Equations and Value Iteration</td>
+              <td></td>
+              <td>AIMA &sect;&sect;17.1&ndash;17.2.1</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-08">Thu, Oct. 8</time></td>
+              <td>Policy Iteration and Sequential-Decision Examples<br><em class="assignment-due">Assignment 3 Due</em></td>
+              <td></td>
+              <td>AIMA &sect;17.2.2</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-13">Tue, Oct. 13</time></td>
+              <td><em>Assignment 3 Review</em><br><em>Midterm Exam Preparation</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-15">Thu, Oct. 15</time></td>
+              <td><em class="exam">Midterm Exam</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="no-class">
+              <td><time datetime="2026-10-20">Tue, Oct. 20</time></td>
+              <td>No class &mdash; Fall Break</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-22">Thu, Oct. 22</time></td>
+              <td><em>Midterm Solutions and Feedback Review</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-27">Tue, Oct. 27</time></td>
+              <td>Machine-Learning Formulation<br>Supervised Learning<br><em>Assignment 4 Released</em></td>
+              <td></td>
+              <td>AIMA &sect;&sect;19.1&ndash;19.2</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-10-29">Thu, Oct. 29</time></td>
+              <td>Evaluation, Generalization, Regularization, and Model Selection</td>
+              <td></td>
+              <td>AIMA &sect;&sect;19.4 and 19.9</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-03">Tue, Nov. 3</time></td>
+              <td>Neural Networks<br>Backpropagation and Optimization</td>
+              <td></td>
+              <td>AIMA &sect;&sect;21.1&ndash;21.4</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-05">Thu, Nov. 5</time></td>
+              <td>Modern Neural-Network Training and Debugging<br>Reinforcement Learning Overview</td>
+              <td></td>
+              <td>AIMA &sect;&sect;21.4&ndash;21.5 and 22.1&ndash;22.3</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-10">Tue, Nov. 10</time></td>
+              <td>Attention and Transformer Architectures<br><em class="assignment-due">Assignment 4 Due</em></td>
+              <td></td>
+              <td>AIMA &sect;24.4</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-12">Thu, Nov. 12</time></td>
+              <td>Foundation Models: Tokenization, Pretraining, and Decoding<br><em>Assignment 5 Released</em></td>
+              <td></td>
+              <td>AIMA &sect;&sect;24.3.2 and 24.5</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-17">Tue, Nov. 17</time></td>
+              <td><em>Assignment 4 Review</em><br>Instruction Tuning and Preference Alignment</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-19">Thu, Nov. 19</time></td>
+              <td>Embeddings and Retrieval-Augmented Generation</td>
+              <td></td>
+              <td>AIMA &sect;24.1</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-11-24">Tue, Nov. 24</time></td>
+              <td>Tool-Using and Agentic Systems<br><em class="assignment-due">Assignment 5 Due</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="no-class">
+              <td><time datetime="2026-11-26">Thu, Nov. 26</time></td>
+              <td>No class &mdash; Thanksgiving Holiday</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-12-01">Tue, Dec. 1</time></td>
+              <td><em>Assignment 5 Review</em><br>Responsible AI and Security</td>
+              <td></td>
+              <td>AIMA Ch. 27</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-12-03">Thu, Dec. 3</time></td>
+              <td>Responsible AI and Security, continued<br><em>Final Exam Preparation</em></td>
+              <td></td>
+              <td>AIMA Ch. 27</td>
+            </tr>
+            <tr>
+              <td><time datetime="2026-12-08">Tue, Dec. 8</time></td>
+              <td><em class="exam">Final Exam, 3:00 PM&ndash;5:00 PM</em></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
