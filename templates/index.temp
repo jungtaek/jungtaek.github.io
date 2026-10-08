@@ -33,6 +33,7 @@
 
             <p class="paragraph-120-bold">WORK-IN-PROGRESS PAPERS</p>
             <ul class="general-list">
+                <li>Hyun Jung Lee, Jungtaek Kim, Jongwon Jeong, Tae-Eui Kam, Donghyun Kim, and Yong Jae Lee. <a href="https://arxiv.org/abs/2610.08432" target="_blank">EMHO: EMbodied Agent Harness Optimization via Experience Traces</a>.</li>
                 <li>Jaden Park*, Jungtaek Kim*, Jongwon Jeong*, Robert D. Nowak, Kangwook Lee, and Yong Jae Lee. <a href="https://arxiv.org/abs/2604.13151" target="_blank">Exploration and Exploitation Errors Are Measurable for Language Model Agents</a>.</li>
                 <li>Jongwon Jeong, Jungtaek Kim, and Kangwook Lee. <a href="https://arxiv.org/abs/2602.19633" target="_blank">TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents</a>.</li>
                 <li>Jungtaek Kim. <a href="https://arxiv.org/abs/2401.01981" target="_blank">Beyond Regrets: Geometric Metrics for Bayesian Optimization</a>.</li>
